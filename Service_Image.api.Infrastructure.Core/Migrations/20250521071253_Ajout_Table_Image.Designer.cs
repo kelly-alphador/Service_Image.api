@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Service_Image.api.Infrastructure.Core.Data;
 
@@ -11,9 +12,11 @@ using Service_Image.api.Infrastructure.Core.Data;
 namespace Service_Image.api.Infrastructure.Core.Migrations
 {
     [DbContext(typeof(ImageDbContext))]
-    partial class ImageDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250521071253_Ajout_Table_Image")]
+    partial class Ajout_Table_Image
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
