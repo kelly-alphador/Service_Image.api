@@ -1,2 +1,2 @@
 # Service_Image.api
-![Register](./docs/register.png)
+![Endpoints](./Service_Image.api/Docs/endpoints.png)
