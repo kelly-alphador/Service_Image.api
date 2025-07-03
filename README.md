@@ -1,2 +1,2 @@
 # Service_Image.api
-![Texte alternatif](./docs/register.png)
+![Register](./Service_Image.api/docs/register.png)
