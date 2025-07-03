@@ -47,6 +47,6 @@ Ce projet démontre mes compétences en développement backend, gestion sécuris
 ### capture de modification de l'image
 ![Endpoints](./Service_Image.api/Docs/modif.png)
 ### capture de Upload Image
-![Endpoints](./Service_Image.api/Docs/upload image.png)
+![Endpoints](./Service_Image.api/Docs/upload_image.png)
 ### Liste des images par pagination
-![Endpoints](./Service_Image.api/Docs/get image.png)
+![Endpoints](./Service_Image.api/Docs/get_image.png)
