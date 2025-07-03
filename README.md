@@ -36,17 +36,40 @@ Ce projet démontre mes compétences en développement backend, gestion sécuris
 - **Listing des images** : Liste paginée des images téléversées par l'utilisateur, avec métadonnées.
 
 ---
+## 💡 Captures de la documentation Swagger
 
-## 💡 Capture de la documentation Swagger
-### capture de tous les endpoints
+### Vue d'ensemble de tous les endpoints
 ![Endpoints](./Service_Image.api/Docs/endpoints.png)
-### capture de register
-![Endpoints](./Service_Image.api/Docs/register.png)
-### capture login
-![Endpoints](./Service_Image.api/Docs/login.png)
-### capture de modification de l'image
-![Endpoints](./Service_Image.api/Docs/modif.png)
-### capture de Upload Image
-![Endpoints](./Service_Image.api/Docs/upload%20image.png)
-### Liste des images par pagination
-![Endpoints](./Service_Image.api/Docs/get%20image.png)
+
+### Capture d'écran de l'inscription (Register)
+![Register](./Service_Image.api/Docs/register.png)
+
+### Capture d'écran de la connexion (Login)
+![Login](./Service_Image.api/Docs/login.png)
+
+### Capture d'écran de la modification d'image
+![Modification d'image](./Service_Image.api/Docs/modif.png)
+
+### Capture d'écran du téléversement d'image (Upload Image)
+![Upload d'image](./Service_Image.api/Docs/upload%20image.png)
+
+### Capture d'écran de la liste paginée des images
+![Liste paginée des images](./Service_Image.api/Docs/get%20image.png)
+
+---
+ ## 🚀 Lancer le projet
+
+1. Cloner le dépôt :
+
+   ```bash
+   git clone https://github.com/kelly-alphador/Service_Image.api.git
+   cd Service_Image.api
+2. Restaurer les dépendances :
+   ```bash
+   dotnet restore
+3. Appliquer les migrations et créer la base de données : 
+   ```bash
+   dotnet ef database update -p Service_Image.api.Infrastructure.Core -s Service_Image.api
+4. Démarrer l'application :
+   ```bash
+   dotnet run
